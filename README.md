@@ -32,10 +32,10 @@ $ npm run dev
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
 
-### CRIANDO UMA CATEGORIA DE CARRO
+### Criando uma categoria de carro
 ![api-rental-car-create-categories](https://user-images.githubusercontent.com/82469705/175812733-c6ee8fe5-44c5-4d08-84f8-de353a023c76.PNG)
 
-### LISTANDO AS CATEGORIAS DE CARRO
+### Listando as categorias
 ![api-rental-car-list-categories](https://user-images.githubusercontent.com/82469705/175812745-d22db083-c97e-481f-a3eb-630b9126dc7c.PNG)
 
 
