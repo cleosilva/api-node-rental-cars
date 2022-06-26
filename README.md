@@ -2,7 +2,7 @@
 <h1 align="center">
     <a href="https://nodejs.org/en/">🔗 Node.js</a>
 </h1>
-<p align="center">🚀 Api de locação de carros, na aplicação poderá cadastrar usuários e carros.</p>
+<p align="center">🚀 Api de locação de carros. Na aplicação poderá cadastrar usuários, carros e realizar uma locação..</p>
 
 <h3>Diagrama das Classes</h3>
 <img src="https://user-images.githubusercontent.com/82469705/171303072-5453556b-d192-472c-96f2-5eab22e30c20.png" width="600px"></img>
