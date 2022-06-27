@@ -1,14 +1,14 @@
 import { Request, Response } from 'express';
-import { CreateCategoryUserCase } from './CreateCategoryUserCase';
+import { CreateCategoryUseCase } from './CreateCategoryUseCase';
 
 
 class CreateCategoryController {
 
-    constructor(private createCategoryUserCase: CreateCategoryUserCase) {}
+    constructor(private createCategoryUseCase: CreateCategoryUseCase) {}
     handle(request: Request, response: Response) {
         const { name , description } = request.body;
         
-        this.createCategoryUserCase.execute({name, description});
+        this.createCategoryUseCase.execute({name, description});
 
         return response.status(201).send();
     }
