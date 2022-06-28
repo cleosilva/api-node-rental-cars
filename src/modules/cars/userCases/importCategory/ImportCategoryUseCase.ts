@@ -27,6 +27,8 @@ class ImportCategoryUseCase {
             })
         })
         .on("end", () => {
+            // remove o arquivo da pasta temp
+            fs.promises.unlink(file.path);
             resolve(categories);
         })
         .on("error", (err) => {
